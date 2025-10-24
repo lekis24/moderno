@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #4a8e56;
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  transition: all .3s;
+}
